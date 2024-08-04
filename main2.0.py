@@ -261,12 +261,6 @@ def main():
     new_bg = pygame.transform.scale(new_bg,(SCREEN_WIDTH,SCREEN_HEIGHT - 150))
     GAME_IMAGES['background'] = new_bg
     
-    new1_bg = pygame.image.load("picutures/new_bg.jpg").convert_alpha()
-    new1_bg = pygame.transform.scale(new_bg,(SCREEN_WIDTH,SCREEN_HEIGHT - 150))
-    GAME_IMAGES['new1_background'] = new1_bg
-
-
-    
     new_player = pygame.image.load(PLAYER).convert_alpha()
     new_player = pygame.transform.scale(new_player,(60,70))
     GAME_IMAGES['player'] = new_player
